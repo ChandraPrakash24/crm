@@ -1,0 +1,21 @@
+{
+  "name": "zatacrmbackend",
+  "version": "1.0.0",
+  "description": "It is a server for the the zata crm frontend panel ( current node verson : 18.15.0 )",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "node-cache": "^5.1.2"
+  }
+}
